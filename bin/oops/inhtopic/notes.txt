@@ -1,0 +1,53 @@
+Inheritance:- To reduce code/logic Duplication
+--------------
+
+			Type of Relation
+			-----------------
+			      |
+	1. IS-A relation		2. HAS-A relation
+	-------------------		-------------------
+		|				|
+	   inheritance			    Aggregation	
+
+1. IS-A relation:-
+--------------------
+
+	Person(Super/Base/Parent)
+	  |
+	Student(Child/Sub/Derived)		
+
+		Child class	   Parent Class	
+		  |			|
+		Student----IS-A-----Person(100% true)
+
+		Person----IS-A-----Student(False)
+
+2. HAS-A relation:-
+------------------
+
+		Employee-----HAS-A---------Address
+
+class Address
+{
+	
+}
+class Employee
+{
+	Address address = new Address();	
+}
+
+				Type of Inheritance
+				--------------------
+
+					    interface
+						|
+			--------------------------------------------------
+			|						 |
+		  By Java Class						 |
+			|						 |
+-------------------------------------------------------	 	-------------------------
+1. Single	2. Multilevel		3. Hierarchical		4. Multiple	5. Hybrid
+
+
+	
+	

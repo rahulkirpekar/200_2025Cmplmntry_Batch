@@ -1,0 +1,97 @@
+Runtime Polymorphism:-
+-----------------------
+
+	A
+	|
+-----------------
+|		|
+B		C
+
+	A obj = new A();// Static Binding
+
+	// Runtime Polymorphism / Polymorphic Object 
+	A obj = new B();
+
+	obj = new C();
+---------------------------------------------------------------------------------------------
+
+				Person(void getBehave()---Human)
+				  |
+	-------------------------------------------------------------------------
+	|			  |			|			|
+      Home		        School		       Org		   PublicPlace
+	|			  |			|			|
+   getBehave()		     getBehave()	   getBehave()		   getBehave()
+	|			  |			|			|
+      Child		       Student		    Employee		    Citizen
+ 
+
+Person person = new Home();
+person.getBehave();
+-----------------------------
+person = new School();
+person.getBehave();
+-----------------------------
+person = new Org();
+person.getBehave();
+-----------------------------
+person = new PublicPlace();
+person.getBehave();
+
+
+
+
+
+
+
+
+					RbiBank(int getROI()=0)
+					  |
+	-------------------------------------------------------------------------
+	|			  |			|			|
+    AxisBank 		       SbiBank		     KotakBank               BankOfBaroda
+  int getROI()		      int getROI()	     int getROI()	     int getROI()		
+	|			  |			|			|
+       12%                        8%                    10%                     9%
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

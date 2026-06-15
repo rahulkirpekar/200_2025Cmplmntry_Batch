@@ -1,0 +1,93 @@
+Runtime Polymorphism:-
+-------------------------
+
+
+				Vehicle(getSpec())
+				  |
+	---------------------------------------------------------
+	|			  |				|
+     TwVehicle		      LmvVehicle	 	    HmvVehicle	 
+	|			  |				|
+     getSpec()		      getSpec()                      getSpec()	
+
+
+
+
+				RbiBank(int getROI()--0)
+				  |
+	---------------------------------------------------------
+	|			  |				|
+    AxisBank                 SbiBank                       KotakBank	
+   int getROI()		  int getROI()			  int getROI()
+	|			  |				|
+       12%			 8%			        9%
+
+
+
+
+
+				  A(test1())
+				  |
+	---------------------------------------------------------
+	|			  |				|
+	B			  C			  	D
+     test1()--B		      test1()--C		    test1()--D
+	|			  |				|
+     testB()		      testC()			    testD()
+
+
+	A objA = new B();
+	objA.test1();
+
+	//objA.testB();//C.E
+
+	if(objA instanceof B)
+	{
+		B objB = (B)objA;
+		objB.testB();
+	}
+	else if(objA instanceof C)
+	{
+		// Downcasting
+		C objC = (C)objA;
+		objC.testC();
+	}
+	else if(objA instanceof D)
+	{
+		D objD = (D)objA;
+		objD.testD();
+	}
+
+
+---------------------------------------
+	objA = new C();
+	objA.test1();
+---------------------------------------
+	objA = new D();
+	objA.test1();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
