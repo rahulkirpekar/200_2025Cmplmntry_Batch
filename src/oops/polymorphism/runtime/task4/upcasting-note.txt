@@ -1,0 +1,11 @@
+
+				Person(getBehave()--Human Behaviour)
+				  |
+	---------------------------------------------------------------------------------
+	|			  |				|			|
+     School		         Org	 		     PublicPlace               Home
+	|			  |				|			|
+   getBehave()               getBehave()                   getBehave()              getBehave()   
+    Student		       Employee			     Citizen		      Child
+	|			  |				|			|
+--getResult();		     getSalary();		 getPublicEvent()	    getMovieOnTime();	     	
