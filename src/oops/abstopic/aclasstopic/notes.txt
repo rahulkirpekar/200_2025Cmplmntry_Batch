@@ -1,0 +1,57 @@
+Abstraction:- To increase security of Application hide functionality use features.
+-------------
+
+			Type of Abstraction
+			--------------------	
+	1. 0% to 100%				2. 100% Abstraction
+	--------------				--------------------
+	===> Abstract Class			===> interface(pure Abstraction)
+
+
+	
+Abstract Class:-
+----------------
+	1.Data Members
+	2.constructors
+	3.method
+		1. Abstract methods
+		-------------------------
+		public abstract void test1();	
+
+		2. Non-abstract methods
+		-------------------------
+		public void test2()
+		{
+
+		}	
+-----------------------------------
+abstract class A
+{
+	public abstract void test1();	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

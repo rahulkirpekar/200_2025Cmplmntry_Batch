@@ -1,0 +1,56 @@
+Type of Abstraction:-
+--------------------------
+
+
+	1. 0% to 100%			2. 100%
+	---------------			---------------
+	Abstract class			interface(100% Abstraction)
+----------------------------------------------------------------------------------------------------
+
+interface(100% Abstraction):-
+--------------------------------
+
+	Java--interface-6(100% Abstraction)
+	Java--interface-7+(0% to 100% Abstraction)
+	
+
+public interface A
+{
+	// 1. Constant Variables(public static final)
+	int no = 10;// public static final 
+
+	// 2. methods
+		// 1.Abstract Method(Abstraction)---[public abstract]
+		// 2.Non-Abstract Method(static--8,default--8,private--9)// java-8	
+}
+
+
+
+
+		Trustees(interface)
+		   |						
+		Principal(interface)		
+		   |
+		HOD(abstract class)
+		   |
+		Teacher(abstract class)
+	---------------------------------------
+	|					|	
+  Students(class)			Head Girl/Head Boy(class)
+
+		   |
+		students(Class)
+
+
+
+	interface		class			interface-A (1,2,3)
+	  |--implements		 |--extends		  |--extends
+	class			class			interface-B(4,5)
+							  |
+							class(1,2,3,4,5)
+
+
+
+	class
+	  |---X(Not Possible in Java)
+	interface	
