@@ -1,0 +1,102 @@
+Exception:- Abnormal Scenario--- Code Crashed / Abnormal Terminate.
+-----------
+
+	Statemnt---------1
+	Statemnt---------2
+	Statemnt---------3
+	Statemnt---------4
+	Statemnt---------5
+
+	raise Exception---Code Crashed---JVM Execution STOP.
+
+	Statemnt---------6
+	Statemnt---------7
+	Statemnt---------8
+	Statemnt---------9
+	Statemnt---------10
+
+			Type of Exception
+			-------------------
+1. Chekced Exception			2. UnChekced Exception	
+------------------------		------------------------
+compiletime--Compiler			Runtime--JVM
+------------------------------------------------------------------------------------
+			Hierarchy of Exception
+			-----------------------
+
+				Throwable(c)
+				   |
+				Exception(c)
+				   |
+				   |
+				   |
+		-----------------------------------------
+		|--Checked  Exception			|-Unchecked Exception
+		|				  RuntimeException(C)
+		|				  	|	
+   --IOException				--ArithmeticException	
+   --SQLException				--NullPointerException
+   --FileNotFoundException			--ArrayIndexOutofBoundException
+   --ClassNotFoundException			--StringIndexOutofBoundException
+						--ClasscastException
+						--NumberFormatException
+		
+
+Exception Handling---code:-
+------------------------------
+	try..catch...finally
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
